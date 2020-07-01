@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Categories :: My New Hugo Site</title>
+    <title>Installation :: My New Hugo Site</title>
 
     
     <link href="/css/nucleus.css?1593576526" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/categories/">
+  <body class="" data-url="/searcher/installation/">
     <nav id="sidebar" class="">
 
 
@@ -81,7 +81,7 @@
   
     
     <li data-nav-id="/searcher/" title="Searcher" class="dd-item 
-        
+        parent
         
         
         ">
@@ -136,8 +136,8 @@
   
     
     <li data-nav-id="/searcher/installation/" title="Installation" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/searcher/installation/">
@@ -204,7 +204,13 @@
             
           
           
-            <a href='/'></a> > Categories
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/searcher/'>Searcher</a> > Installation
+          
+        
           
         
           
@@ -215,7 +221,16 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#installationinstall--compatability-detailsnotes"><a href="#install">Installation</a> | <a href="#notes">Compatability Details</a></a>
+      <ul>
+        <li></li>
+        <li><a href="#notes">Notes</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -231,7 +246,7 @@
           
             <h1>
               
-              Categories
+              Installation
             </h1>
           
 
@@ -239,11 +254,126 @@
 
 
 
+	<h2 id="installationinstall--compatability-detailsnotes"><a href="#install">Installation</a> | <a href="#notes">Compatability Details</a></h2>
+<p>Thanks for checking out Searcher. Below are the instructions to get you up and running.</p>
+<h4 id="install">Install</h4>
+<ol>
+<li>
+<p>Extract/unzip &lsquo;Searcher_&lt;version&gt;.zip&rsquo;. (ex. Searcher_v0.1.0.zip) Inside will be a packages and Searcher folder as well as a README.md and a url link to this page.</p>
+<pre><code>Searcher_v0.1.0.zip /
+        Searcher_v0.1.0/__ /packages/
+                        |_ /Searcher/
+                        |__ README.md
+                        |__ Searcher_install_instructions.url
+</code></pre></li>
+<li>
+<p>Move the Searcher folder somewhere permanent. It can be placed where ever you would like. Make note of the folder path, as it will be needed in a later step. Examples below:</p>
+<table>
+<thead>
+<tr>
+<th>OS</th>
+<th>Path  (replace &lt;user&gt; with your actual username)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><!-- raw HTML omitted --><!-- raw HTML omitted --> Windows:</td>
+<td>C:\Users\&lt;user&gt;\houdini_addons\Searcher</td>
+</tr>
+<tr>
+<td><!-- raw HTML omitted --><!-- raw HTML omitted --> Linux:</td>
+<td>/home/&lt;user&gt;/houdini_addons/Searcher</td>
+</tr>
+<tr>
+<td><!-- raw HTML omitted --><!-- raw HTML omitted --> MacOS:</td>
+<td>/Users/&lt;user&gt;/Library/h_addons/Searcher</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Move the &lsquo;packages&rsquo; folder into your Houdini $HOME directory. The locations are seen below:</p>
+<table>
+<thead>
+<tr>
+<th>OS</th>
+<th>Path  (replace &lt;user&gt; with your actual username)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><!-- raw HTML omitted --><!-- raw HTML omitted --> Windows:</td>
+<td>C:\Users\&lt;user&gt;\Documents\houdini18.0\packages\Searcher.json</td>
+</tr>
+<tr>
+<td><!-- raw HTML omitted --><!-- raw HTML omitted --> Linux:</td>
+<td>/home/&lt;user&gt;/houdini18.0/packages/Searcher.json</td>
+</tr>
+<tr>
+<td><!-- raw HTML omitted --><!-- raw HTML omitted --> MacOS:</td>
+<td>/Users/&lt;user&gt;/Library/Preferences/houdini/18.0/packages/Searcher.json</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Within the &lsquo;packages&rsquo; folder is the Searcher.json file. Open this file in your editor of choice and edit line #27. Within the second set of quotation marks input the path to the Searcher folder from step #2. On Windows, replace the backslashes (\) in the path with a forwardslashs (/)
+Ex. If using Windows and following the example listed above, line 27 would look like this:</p>
+<pre><code>        &quot;SEARCHERLOCATION&quot;: &quot;C:/Users/&lt;user&gt;/houdini_addons/Searcher&quot;,
+</code></pre></li>
+<li>
+<p>Save the file and start Houdini. On the main shelf toolbar add the Searcher shelf by clicking on the plus(+) button, then the Shelves tab, followed by selecting &ldquo;Searcher Shelf&rdquo; seen in the images below:
+<img src="https://i.imgur.com/GzdyUYt.png" alt=""><br>
+<img src="https://i.imgur.com/F4C5MOx.png" alt=""></p>
+</li>
+<li>
+<p>You should now be able to hit the hotkey below to open the Searcher window:<br>
+Open Searcher Window: <!-- raw HTML omitted -->Ctrl<!-- raw HTML omitted -->+<!-- raw HTML omitted -->`<!-- raw HTML omitted --></p>
+</li>
+</ol>
+<h3 id="notes">Notes</h3>
+<h5 id="compatability">Compatability:</h5>
+<table>
+<thead>
+<tr>
+<th>Houdini</th>
+<th>Versions Tested</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://i.imgur.com/h9Nefqz.png" alt=""> Houdini:</td>
+<td>Version: 18.0.348 and up</td>
+</tr>
+</tbody>
+</table>
+<h5 id="tested-versions">Tested versions</h5>
+<table>
+<thead>
+<tr>
+<th>OS</th>
+<th>Versions Tested</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⊞ Windows:</td>
+<td>Windows 10 Pro v10.0.19041.264 (v2004)</td>
+</tr>
+<tr>
+<td>🐧 Linux:</td>
+<td>Pop_OS! (Ubuntu) 19.04/19.10/20.04</td>
+</tr>
+<tr>
+<td>🍎 MacOS:</td>
+<td>Coming soon!</td>
+</tr>
+</tbody>
+</table>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --> <a href="https://instance.id/">website</a> | <!-- raw HTML omitted --><!-- raw HTML omitted --> <a href="https://twitter.com/instance_id">twitter</a> | <!-- raw HTML omitted --> <!-- raw HTML omitted --> <a href="https://github.com/instance-id">github</a> | <!-- raw HTML omitted --><!-- raw HTML omitted --> <a href="https://github.com/instance-id/searcher_addon/issues?q=">issues</a> | <!-- raw HTML omitted --><!-- raw HTML omitted --> <a href="https://github.com/instance-id/searcher_addon/issues?q=">email</a></p>
 
 
-<ul>
-	
-</ul>
+
 
 
 <footer class=" footline" >
@@ -281,8 +411,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -298,6 +426,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -314,6 +445,7 @@
             
             
                 
+                    
                     
                 
                 
