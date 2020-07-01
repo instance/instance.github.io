@@ -40,3 +40,25 @@ ordersectionsby = "weight"
 themeVariant = "instance"
 # Provide a list of custom css files to load relative from the `static/` folder in the site root.
 custom_css = ["css/foo.css", "css/bar.css"]
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-twitter fa-1x'></i>  twitter"
+url = "https://twitter.com/instance_id"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i>  github"
+identifier = "ds"
+url = "https://github.com/instance-id"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-firefox fa-1x'></i>  website"
+url = "http://instance.id"
+weight = 12
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bug fa-1x'></i>  Issues"
+url = "https://github.com/instance-id/searcher_addon/issues?q="
+weight = 13
+

@@ -1,5 +1,6 @@
 ---
 title: "Installation"
+weight: 4
 date: 2020-06-30T01:19:13-05:00
 draft: false
 ---
@@ -42,8 +43,11 @@ Ex. If using Windows and following the example listed above, line 27 would look 
 			"SEARCHERLOCATION": "C:/Users/<user>/houdini_addons/Searcher",
     ```
 5. Save the file and start Houdini. On the main shelf toolbar add the Searcher shelf by clicking on the plus(+) button, then the Shelves tab, followed by selecting "Searcher Shelf" seen in the images below:
-    ![](https://i.imgur.com/GzdyUYt.png)  
-    ![](https://i.imgur.com/F4C5MOx.png)
+
+    |                                       |
+    | ------------------------------------- |
+    | ![1](https://i.imgur.com/GzdyUYt.png) |
+    | ![1](https://i.imgur.com/F4C5MOx.png) |
 
 6. You should now be able to hit the hotkey below to open the Searcher window:  
     Open Searcher Window: <kbd>Ctrl</kbd>+<kbd>`</kbd>
@@ -62,7 +66,5 @@ Ex. If using Windows and following the example listed above, line 27 would look 
 | ⊞ Windows: | Windows 10 Pro v10.0.19041.264 (v2004) |
 | 🐧 Linux:   | Pop_OS! (Ubuntu) 19.04/19.10/20.04     |
 | 🍎 MacOS:   | Coming soon!                           |
-
-
 
 <i class="fa fa-firefox fa-1x"></i> [website](https://instance.id/) | <i class="fa fa-twitter fa-1x"></i> [twitter](https://twitter.com/instance_id) | <i class="fa fa-github fa-1x"> </i> [github](https://github.com/instance-id) | <i class="fa fa-bug fa-1x"></i> [issues](https://github.com/instance-id/searcher_addon/issues?q=) | <i class="fa fa-at fa-1x"></i> [email](https://github.com/instance-id/searcher_addon/issues?q=)  

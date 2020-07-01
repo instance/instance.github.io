@@ -1,5 +1,3 @@
-### Chapter 1
-
-# Searcher
-
-Discover what this Hugo theme is all about and the core concepts behind it.
+#### instance.id
+Welcome to the instance.id wiki
+![](/images/layout/full-nav-bg.png)
