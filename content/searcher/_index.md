@@ -6,6 +6,11 @@ chapter : false
 pre : "<b><i class='fab fa-github'></i> </b>"
 cascade: 
   banner: images/typewriter.jpg
+menu:
+  docs:
+    title: "how to use menus in templates"
+    parent: "templates"
+    weight: 130
 ---
 
 #### instance.id

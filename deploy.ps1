@@ -24,7 +24,7 @@ $msg = "rebuilding site $(Get-Date)"
 Write-Host "Committing local repo"
 & git add -A
 & git commit -m $msg
-& git push origin site_files
+& git push origin site-files
 
 Write-Host "Copying $sourceDirectory to $destinationDirectory"
 Copy-item -Force -Recurse -Verbose -Path $sourceDirectory -Destination $tmpDestination

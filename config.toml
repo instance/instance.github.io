@@ -62,3 +62,7 @@ name = "<i class='fa fa-bug fa-1x'></i>  Issues"
 url = "https://github.com/instance-id/searcher_addon/issues?q="
 weight = 13
 
+[menu2.shortcuts]
+name = "Dicks"
+url = "https://github.com/instance-id/searcher_addon/issues?q="
+weight = 14
