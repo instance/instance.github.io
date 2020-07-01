@@ -6,27 +6,19 @@ chapter : false
 pre : "<b><i class='fab fa-github'></i> </b>"
 cascade: 
   banner: images/typewriter.jpg
-menu:
-  docs:
-    title: "how to use menus in templates"
-    parent: "templates"
-    weight: 130
 ---
 
 #### instance.id
 
 Searcher brings the “Search Everything” functionality found in many modern Content Creation Suites and IDE’s such as JetBrains ‘Shift+Shift’ search (PyCharm, Rider, Webstorm, etc), Blender, Maya, and many others, to Houdini.\s\s
 
-
 * **Quickly locate and execute any menu item or hotkeyable action without the need to assign, memorize, or manage hotkeys.**
-   
-    {{< youtube ZzwwaVjVKaU >}} 
+
+    {{< youtube ZzwwaVjVKaU >}}
 
 * **View available actions for windows and panes on mouse-over**
 
-    {{< youtube YBG1atLljZo >}} 
-
-
+    {{< youtube YBG1atLljZo >}}
 
 * **Greatly increase productivity.** Spend less time trying to locate nested menu items or remembering hundreds of hotkeys  
 * **Optimized for responsiveness.** Utilizes libraries written in C to maximize speed  
@@ -37,7 +29,7 @@ Searcher brings the “Search Everything” functionality found in many modern C
 
 * **Feature requests welcome and encouraged!** If you think Searcher could benefit from an additional feature, let us know!  
 
-#### Compatibility notes:  
+#### Compatibility notes  
 
 #### Tested versions
 
@@ -52,4 +44,4 @@ Searcher brings the “Search Everything” functionality found in many modern C
 {{% /notice %}}
 (Can look into supporting older versions if requested. It is unknown at this point if there are any technical limitations.)  
 
-Current Version: v0.1.1
+Current Version: v0.1.1  

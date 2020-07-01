@@ -52,13 +52,13 @@ Ex. If using Windows and following the example listed above, line 27 would look 
 6. You should now be able to hit the hotkey below to open the Searcher window:  
     Open Searcher Window: <kbd>Ctrl</kbd>+<kbd>`</kbd>
 
-### Notes
+### Notes  
 
 #### Compatability:
 
-| Houdini                                       | Versions Tested          |
-| --------------------------------------------- | ------------------------ |
-| ![](https://i.imgur.com/h9Nefqz.png) Houdini: | Version: 18.0.348 and up |
+| Houdini                                                              | Versions Tested          |
+| -------------------------------------------------------------------- | ------------------------ |
+| ![](https://i.imgur.com/h9Nefqz.png?height=16px&width=16px) Houdini: | Version: 18.0.348 and up |
 
 #### Tested versions
 | OS         | Versions Tested                        |
