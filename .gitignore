@@ -2,3 +2,14 @@
 package-lock.json
 .history/
 .idea/
+Thumbs.db
+.DS_Store
+.dist
+.tmp
+.sass-cache
+npm-debug.log
+node_modules
+builds
+package-lock.json
+.history/
+Public
