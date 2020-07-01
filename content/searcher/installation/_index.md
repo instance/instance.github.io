@@ -56,9 +56,9 @@ Ex. If using Windows and following the example listed above, line 27 would look 
 
 #### Compatability:
 
-| Houdini                                                              | Versions Tested          |
-| -------------------------------------------------------------------- | ------------------------ |
-| ![](https://i.imgur.com/h9Nefqz.png?height=16px&width=16px) Houdini: | Version: 18.0.348 and up |
+| Houdini | Versions Tested          |
+| ------- | ------------------------ |
+| Houdini | Version: 18.0.348 and up |
 
 #### Tested versions
 | OS         | Versions Tested                        |
