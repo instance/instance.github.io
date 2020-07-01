@@ -37,9 +37,9 @@ Searcher brings the “Search Everything” functionality found in many modern C
 
 * **Feature requests welcome and encouraged!** If you think Searcher could benefit from an additional feature, let us know!  
 
-##### Compatibility notes:  
+#### Compatibility notes:  
 
-##### Tested versions
+#### Tested versions
 
 | OS                                                                  | Version                                |
 | :------------------------------------------------------------------ | -------------------------------------- |

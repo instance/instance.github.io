@@ -54,13 +54,13 @@ Ex. If using Windows and following the example listed above, line 27 would look 
 
 ### Notes
 
-##### Compatability:
+#### Compatability:
 
 | Houdini                                       | Versions Tested          |
 | --------------------------------------------- | ------------------------ |
 | ![](https://i.imgur.com/h9Nefqz.png) Houdini: | Version: 18.0.348 and up |
 
-##### Tested versions
+#### Tested versions
 | OS         | Versions Tested                        |
 | ---------- | -------------------------------------- |
 | ⊞ Windows: | Windows 10 Pro v10.0.19041.264 (v2004) |
