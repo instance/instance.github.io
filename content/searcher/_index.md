@@ -28,11 +28,11 @@ Searcher: View available actions for windows and panes on mouse-over
 
 Compatibility notes: Tested versions  
 
-OS | Version
----|---
-<img src="https://i.imgur.com/SpqCwMf.png" width="16"/> **Windows**: | Windows 10 Pro v10.0.19041.264 (v2004)  
-<img src="https://i.imgur.com/EJfXcYN.png" width="16"/> **Linux**: | Pop_OS! (Ubuntu) 19.04/19.10/20.04   
-<img src="https://i.imgur.com/8FO6lrr.png" width="16"/> **MacOS**: | Coming soon!  
+| OS                                                                  | Version                                |
+| ------------------------------------------------------------------- | -------------------------------------- |
+| <img src="https://i.imgur.com/SpqCwMf.png" width="16"> **Windows**: | Windows 10 Pro v10.0.19041.264 (v2004) |
+| <img src="https://i.imgur.com/EJfXcYN.png" width="16"> **Linux**:   | Pop_OS! (Ubuntu) 19.04/19.10/20.04     |
+| <img src="https://i.imgur.com/8FO6lrr.png" width="16"> **MacOS**:   | Coming soon!                           |
 
 **__Requires: Houdini 18.0.348 and up__**  
 
