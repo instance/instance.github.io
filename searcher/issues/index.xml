@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Change Log on instance.id wiki</title>
-    <link>/searcher/changelog/</link>
-    <description>Recent content in Change Log on instance.id wiki</description>
+    <title>Issues on instance.id wiki</title>
+    <link>/searcher/issues/</link>
+    <description>Recent content in Issues on instance.id wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Jun 2020 01:19:13 -0500</lastBuildDate>
     
-	<atom:link href="/searcher/changelog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/searcher/issues/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

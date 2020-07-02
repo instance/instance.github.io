@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Installation on My New Hugo Site</title>
-    <link>http://example.org/searcher/installation/</link>
-    <description>Recent content in Installation on My New Hugo Site</description>
+    <title>Installation on instance.id wiki</title>
+    <link>/searcher/installation/</link>
+    <description>Recent content in Installation on instance.id wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Jun 2020 01:19:13 -0500</lastBuildDate>
     
-	<atom:link href="http://example.org/searcher/installation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/searcher/installation/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
