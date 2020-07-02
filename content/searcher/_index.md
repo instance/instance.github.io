@@ -10,7 +10,7 @@ cascade:
 
 #### instance.id
 
-Searcher brings the “Search Everything” functionality found in many modern Content Creation Suites and IDE’s such as JetBrains ‘Shift+Shift’ search (PyCharm, Rider, Webstorm, etc), Blender, Maya, and many others, to Houdini.\s\s
+Searcher brings the “Search Everything” functionality found in many modern Content Creation Suites and IDE’s such as JetBrains ‘Shift+Shift’ search (PyCharm, Rider, Webstorm, etc), Blender, Maya, and many others, to Houdini.  
 
 * **Quickly locate and execute any menu item or hotkeyable action without the need to assign, memorize, or manage hotkeys.**
 
@@ -45,3 +45,6 @@ Searcher brings the “Search Everything” functionality found in many modern C
 (Can look into supporting older versions if requested. It is unknown at this point if there are any technical limitations.)  
 
 Current Version: v0.1.1  
+
+---
+<i class="fa fa-firefox fa-1x"></i> [website](https://instance.id/) | <i class="fa fa-twitter fa-1x"></i> [twitter](https://twitter.com/instance_id) | <i class="fa fa-github fa-1x"> </i> [github](https://github.com/instance-id) | <i class="fa fa-bug fa-1x"></i> [issues](https://github.com/instance-id/searcher_addon/issues?q=) 

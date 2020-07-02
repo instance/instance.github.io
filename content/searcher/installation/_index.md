@@ -67,4 +67,5 @@ Ex. If using Windows and following the example listed above, line 27 would look 
 | 🐧 Linux:   | Pop_OS! (Ubuntu) 19.04/19.10/20.04     |
 | 🍎 MacOS:   | Coming soon!                           |
 
-<i class="fa fa-firefox fa-1x"></i> [website](https://instance.id/) | <i class="fa fa-twitter fa-1x"></i> [twitter](https://twitter.com/instance_id) | <i class="fa fa-github fa-1x"> </i> [github](https://github.com/instance-id) | <i class="fa fa-bug fa-1x"></i> [issues](https://github.com/instance-id/searcher_addon/issues?q=) | <i class="fa fa-at fa-1x"></i> [email](https://github.com/instance-id/searcher_addon/issues?q=)  
+---
+<i class="fa fa-firefox fa-1x"></i> [website](https://instance.id/) | <i class="fa fa-twitter fa-1x"></i> [twitter](https://twitter.com/instance_id) | <i class="fa fa-github fa-1x"> </i> [github](https://github.com/instance-id) | <i class="fa fa-bug fa-1x"></i> [issues](https://github.com/instance-id/searcher_addon/issues?q=) 
