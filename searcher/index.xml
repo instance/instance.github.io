@@ -6,10 +6,6 @@
     <description>Recent content in Searcher on instance.id wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2020 01:18:02 -0500</lastBuildDate>
-    
-	<atom:link href="/searcher/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 30 Jun 2020 01:18:02 -0500</lastBuildDate><atom:link href="/searcher/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

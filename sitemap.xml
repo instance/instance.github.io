@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/elementanimationtoolkit/installation/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/searcher/installation/</loc>
     <lastmod>2020-06-30T01:19:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/elementanimationtoolkit/</loc>
+    <lastmod>2020-11-15T15:42:19-06:00</lastmod>
   </url>
   
   <url>
@@ -19,8 +29,18 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-06-30T01:19:13-05:00</lastmod>
+    <lastmod>2020-11-15T15:42:19-06:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/elementanimationtoolkit/examples/</loc>
+    <lastmod>2020-11-15T15:42:19-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/elementanimationtoolkit/usage/</loc>
+    <lastmod>2020-11-15T15:42:19-06:00</lastmod>
   </url>
   
   <url>
