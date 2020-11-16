@@ -1,6 +1,72 @@
 /* --------------------------------------------------------------------------- */
 @charset "UTF-8";
 
+/* Custom */
+
+p {
+	/* width: max-content !important; */
+	width: 100% !important;
+}
+
+.upmlink code {
+	color: #2f569c;
+}
+.upmlink:hover {
+	color: #3a82e7;
+}
+
+.expand {
+	color: #98c379;
+	background-color: initial;
+}
+.expand:hover {
+	color: #709158;
+}
+
+.openupm {
+	display: inline-block;
+}
+
+.upm_icon {
+	color: #2f569c;
+}
+
+.fa-angle-double-right {
+	color: #2f569c;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.inline-svg {
+	display: inline-block;
+	height: 1.15rem;
+	width: 1.15rem;
+	top: 0.15rem;
+	position: relative;
+}
+
+.svg-icon {
+	display: inline-flex;
+	align-self: center;
+}
+.svg-icon svg {
+	height: 1em;
+	width: 1em;
+}
+.svg-icon.svg-baseline svg {
+	top: .125em;
+	position: relative;
+}
+
+img[src$='#floatleft'] {
+	margin-left: 0;
+	width: max-content !important;
+}
+
+img[src$='#floatright'] {
+	float: right;
+}
+
 /* Tags */
 @import "tags.css";
 
@@ -69,7 +135,8 @@ a:hover {
 }
 pre {
 	position: relative;
-	color: #ffffff;
+	background-color: initial;
+	padding: 0;
 }
 .bg {
 	background: #fff;
@@ -392,11 +459,18 @@ select[multiple=multiple]:focus {
 	margin-left: 300px;
 	min-height: 100%;
 }
-#body img,
+#body img {
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	width: max-content !important;
+}
+
 #body .video-container {
 	margin: 3rem auto;
 	display: block;
-	text-align: center;
+	width: 600px !important;
 }
 #body img.border,
 #body .video-container.border {
@@ -507,6 +581,7 @@ select[multiple=multiple]:focus {
 #chapter p {
 	text-align: center;
 	font-size: 1.2rem;
+	width: max-content;
 }
 #footer {
 	padding: 3rem 1rem;
@@ -528,7 +603,7 @@ h2 {
 }
 
 h3 {
-	color: #8e989c;
+	color: #2c85a8;
 }
 h4 {
 	color: #2c9e4c;
@@ -558,6 +633,7 @@ blockquote {
 blockquote p {
 	font-size: 1.1rem;
 	color: #999;
+	width: max-content;
 }
 blockquote cite {
 	display: block;
@@ -719,21 +795,23 @@ samp {
 code {
 	border-radius: 2px;
 	white-space: nowrap;
-	color: #5e5e5e;
-	background: #fff7dd;
-	border: 1px solid #fbf0cb;
-	padding: 0px 2px;
+	color: #2f569c;
+	background: #1e1e1e;
+	border: 1px solid #2f569c;
+	padding: 4px 4px;
 }
+
 code + .copy-to-clipboard {
+	display: inline-block;
 	margin-left: -1px;
 	border-left: 0 !important;
 	font-size: inherit !important;
 	vertical-align: middle;
-	height: 21px;
-	top: 0;
+	height: 29px;
+	top: 2px;
 }
 pre {
-	padding: 1rem;
+	padding: 0;
 	margin: 2rem 0;
 	background: #282c34;
 	border: 0;
@@ -750,7 +828,7 @@ pre code {
 	font-size: 15px;
 }
 hr {
-	border-bottom: 4px solid #f0f2f4;
+	border-bottom: 4px solid #3d3d3d;
 }
 .page-title {
 	margin-top: -25px;
@@ -762,6 +840,7 @@ hr {
 }
 #body a.anchor-link {
 	color: #ccc;
+	width: max-content !important;
 }
 #body a.anchor-link:hover {
 	color: #9c6fb6;
@@ -1014,7 +1093,7 @@ td {
 }
 .hljs::selection,
 .hljs span::selection {
-	background: #b7b7b7;
+	background: #414141;
 }
 .lightbox-active #body {
 	overflow: visible;
@@ -1164,25 +1243,27 @@ td {
 	}
 }
 .copy-to-clipboard {
-	background-image: url(../images/clippy.svg);
+	background-image: url(../images/clippy.png);
 	background-position: 50% 50%;
-	background-size: 16px 16px;
+	background-size: 18px 18px;
 	background-repeat: no-repeat;
-	width: 27px;
-	height: 1.45rem;
+	width: 30px;
 	top: -1px;
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
-	color: #5e5e5e;
-	background-color: #fff7dd;
+	color: #2f569c;
+	background-color: #1e1e1e;
 	margin-left: -.2rem;
 	cursor: pointer;
 	border-radius: 0 2px 2px 0;
 	margin-bottom: 1px;
+	border: 1px solid #2f569c;
 }
 .copy-to-clipboard:hover {
-	background-color: #e8e2cd;
+	background-image: url(../images/clippy.svg);
+	background-color: #2f569c;
+	padding: 4px;
 }
 pre .copy-to-clipboard {
 	position: absolute;
@@ -1195,6 +1276,7 @@ pre .copy-to-clipboard {
 pre .copy-to-clipboard:hover {
 	background-color: #656c72;
 	color: #fff;
+	height: 40px;
 }
 .parent-element {
 	-webkit-transform-style: preserve-3d;

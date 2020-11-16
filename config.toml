@@ -7,10 +7,13 @@ theme = "hugo-theme-learn"
 
 [[menu.searcher]]
 identifier = "about"
-name = "about hugo"
+name = "about instance.id"
 pre = "<i class='fa fa-heart'></i>"
 url = "/about/"
 weight = -110
+
+[markup.goldmark.renderer]
+unsafe = true
 
 # For search functionality
 [outputs]
@@ -22,6 +25,7 @@ home = ["HTML", "RSS", "JSON"]
 # Useful to give opportunity to people to create merge request for your doc.
 # See the config.toml file from this documentation site to have an example.
 editURL = ""
+alwaysopen = true
 # Author of the site, will be used in meta information
 author = "instance.id"
 # Description of the site, will be used in meta information
@@ -47,9 +51,11 @@ disableNextPrev = true
 ordersectionsby = "weight"
 # Change default color scheme with a variant one. Can be "red", "blue", "green".
 themeVariant = "instance"
-# Provide a list of custom css files to load relative from the `static/` folder in the site root.
-custom_css = ["css/foo.css", "css/bar.css"]
+pygmentsUseClasses = true
+pygmentsStyle = "trac"
 
+# Provide a list of custom css files to load relative from the `static/` folder in the site root.
+# custom_css = ["css/foo.css", "css/bar.css"]
 [[menu.main]]
 identifier = "issues"
 name = "issues"

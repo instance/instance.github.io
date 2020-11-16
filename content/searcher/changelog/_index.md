@@ -4,13 +4,16 @@ date: 2020-06-30T01:19:13-05:00
 draft: false
 ---
 
-#### v0.1.1 
+#### v0.1.1
+
 {{%expand "06/30/2020"%}}
 
 ##### __New Features__
- *    Initial release!
+
+* Initial release!
 
 ##### __Bug Fixes__
+
 * NA
 {{% /expand%}}
 
