@@ -25,7 +25,7 @@
 	"title": "Contact",
 	"tags": [],
 	"description": "",
-	"content": "Contact  \r#span-996755e9.cloaked-e-mail:before {\rcontent:attr(data-domain) \"\\0040\" attr(data-user);\runicode-bidi:bidi-override;\rdirection:rtl;\r}\r\r\u0026#32;\u0026#32;\rvar scriptTag = document.getElementById(\"script-996755e9\");\rvar link = document.createElement(\"a\");\rvar address = \"troppus\".split('').reverse().join('') + \"@\" + \"di.ecnatsni\".split('').reverse().join('');\rlink.href = \"mailto\" + \":\" + address;\rlink.innerText = address.split('?')[0];\rscriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling);\rscriptTag.parentElement.removeChild(scriptTag.previousElementSibling)\r\r  Element Animation Toolkit  Bugs Feature Request Suggestions  Searcher  Bugs Feature Request Suggestions  "
+	"content": "Contact  \r#span-580a791e.cloaked-e-mail:before {\rcontent:attr(data-domain) \"\\0040\" attr(data-user);\runicode-bidi:bidi-override;\rdirection:rtl;\r}\r\r\u0026#32;\u0026#32;\rvar scriptTag = document.getElementById(\"script-580a791e\");\rvar link = document.createElement(\"a\");\rvar address = \"troppus\".split('').reverse().join('') + \"@\" + \"di.ecnatsni\".split('').reverse().join('');\rlink.href = \"mailto\" + \":\" + address;\rlink.innerText = address.split('?')[0];\rscriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling);\rscriptTag.parentElement.removeChild(scriptTag.previousElementSibling)\r\r  Element Animation Toolkit  Bugs Feature Request Suggestions  Searcher  Bugs Feature Request Suggestions  "
 },
 {
 	"uri": "/searcher/",
@@ -67,7 +67,7 @@
 	"title": "Issues",
 	"tags": [],
 	"description": "",
-	"content": "Searcher  Bugs Feature Request Suggestions  Contact  \r#span-50cc829b.cloaked-e-mail:before {\rcontent:attr(data-domain) \"\\0040\" attr(data-user);\runicode-bidi:bidi-override;\rdirection:rtl;\r}\r\r\u0026#32;\u0026#32;\rvar scriptTag = document.getElementById(\"script-50cc829b\");\rvar link = document.createElement(\"a\");\rvar address = \"troppus\".split('').reverse().join('') + \"@\" + \"di.ecnatsni\".split('').reverse().join('');\rlink.href = \"mailto\" + \":\" + address;\rlink.innerText = address.split('?')[0];\rscriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling);\rscriptTag.parentElement.removeChild(scriptTag.previousElementSibling)\r\r    website |  twitter |  github |  issues\n"
+	"content": "Searcher  Bugs Feature Request Suggestions  Contact  \r#span-382f8e12.cloaked-e-mail:before {\rcontent:attr(data-domain) \"\\0040\" attr(data-user);\runicode-bidi:bidi-override;\rdirection:rtl;\r}\r\r\u0026#32;\u0026#32;\rvar scriptTag = document.getElementById(\"script-382f8e12\");\rvar link = document.createElement(\"a\");\rvar address = \"troppus\".split('').reverse().join('') + \"@\" + \"di.ecnatsni\".split('').reverse().join('');\rlink.href = \"mailto\" + \":\" + address;\rlink.innerText = address.split('?')[0];\rscriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling);\rscriptTag.parentElement.removeChild(scriptTag.previousElementSibling)\r\r    website |  twitter |  github |  issues\n"
 },
 {
 	"uri": "/categories/",
