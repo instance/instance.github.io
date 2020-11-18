@@ -1,6 +1,6 @@
 #!/bin/sh
 set -ex
-icons="github twitter"
+icons="github twitter firefox"
 
 dest=fontawesome
 url=https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands

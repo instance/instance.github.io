@@ -14,8 +14,8 @@ else {
 
 Write-Host "Deploying updates to GitHub..."
 
-$sourceDirectory = "E:/GitHub/instance.github.io/public/*"
-$destinationDirectory = "E:/GitHub/instance.github.io"
+$sourceDirectory = "E:/GitHub/instance-id/instance.github.io/public/*"
+$destinationDirectory = "E:/GitHub/instance-id/instance.github.io"
 $tmpSource = "E:/GitHub/tmp/*"
 $tmpDestination = "E:/GitHub/tmp"
 

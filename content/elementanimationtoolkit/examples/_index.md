@@ -124,3 +124,4 @@ public static T OpenURL<T>(this T element, string url) where T : VisualElement
 {{% /expand%}}
 
 ---
+<i class="fab fa-firefox fa-1x"></i> [website](https://instance.id/) | <i class="fab fa-twitter fa-1x"></i> [twitter](https://twitter.com/instance_id) | <i class="fab fa-github fa-1x"> </i> [github](https://github.com/instance-id) | <i class="fa fa-bug fa-1x"></i> [issues](https://github.com/instance-id/ElementAnimationToolkit/issues?q=) 

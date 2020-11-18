@@ -8,6 +8,21 @@ p {
 	width: 100% !important;
 }
 
+/* Main Page -------------------- */
+
+.intro-text {
+	color: #c4c4c4;
+}
+.usage-note {
+	color: #db3e7f;
+}
+
+.usage-note-text {
+	color: #607fae;
+}
+
+/* Main Page END */
+
 .upmlink code {
 	color: #2f569c;
 }
